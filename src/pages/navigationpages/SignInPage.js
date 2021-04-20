@@ -18,13 +18,15 @@ export const SignInPage = () => {
 	}
 		const signIn =() => {
 			setAutUser()
-			localStorage.setItem('username', 'Ayman' )
+			localStorage.setItem('username', loginuser.username)
+			localStorage.setItem('password', loginuser.password)
 			history.push (RoutingPath.homePage)
 		}
 
 	useEffect(() => {
         setAutUser(null)
 		localStorage.removeItem('username')
+		localStorage.removeItem('password')
 	})
 
 	return (

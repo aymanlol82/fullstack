@@ -11,6 +11,7 @@ export const ProfileList = () => {
     const logout =() =>{
         setAutUser (null)
         localStorage.removeItem ('username')
+        localStorage.removeItem ('password')
         history.push(RoutingPath.homePage)
 
     }
