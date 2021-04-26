@@ -24,6 +24,7 @@ export const DesktopNavigation = () => {
 			<span className='homePage' onClick={() => history.push(RoutingPath.homePage)}>Sweet</span>
             <span className='pastryPage' onClick={() => history.push(RoutingPath.pastryPage)}>Pastry</span>
             <span className='contactusPage' onClick={() => history.push(RoutingPath.contactUsPage)}>Contact Us</span>
+            <span className='APIPage' onClick={() => history.push(RoutingPath.apiPage)}>API</span>
             {IfAutuserSigin()}
         </div>
     )
