@@ -20,13 +20,14 @@ export const APIPage = () => {
 	
 	const fetchPerson =async () => {
 		try{
-				const response = await StarWarsAPIService.getStarWarsPersonens(datatype+personensID)
-				setData(response.data)
+			const response = await StarWarsAPIService.getStarWarsPersonens(datatype+personensID)
+			setData(response.data)
 		} catch (error) {
-			console.log(error)
 			setData('')
+			if (error.response.status === 404) {
+				alert('No data')}
 		}
-		}
+	}
 	
 	useEffect(() => {
 		fetchPerson()

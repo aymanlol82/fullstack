@@ -1,0 +1,17 @@
+
+.fontWrapper{
+	padding: 30px 30px;
+	font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+
+}
+
+.textWrapper{
+	padding: 30px 30px;
+	font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
