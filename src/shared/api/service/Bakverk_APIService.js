@@ -4,4 +4,16 @@ const getAllData = () => {
     return http.get('/pastry')
 }
 
-export default { getAllData}
+const createUser = (userData) => {
+    return http.post('/user' , userData)
+}
+
+const getUser = () => {
+    return http.get('/user')
+}
+
+export default {
+    getAllData,
+    createUser,
+    getUser
+}

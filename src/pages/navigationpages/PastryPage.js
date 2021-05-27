@@ -28,7 +28,7 @@ export const PastryPage = () => {
 	}, [ ])
     
     return (
-        <div>
+        <div >
             {displayData()}
         </div>
     )

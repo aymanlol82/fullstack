@@ -1,0 +1,18 @@
+.registerWrapper{
+	padding: 30px 30px;
+	font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+
+}
+
+.serchWrapper {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

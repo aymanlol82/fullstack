@@ -6,6 +6,7 @@ import {PastryPage} from '../pages/navigationpages/PastryPage'
 import {ContactUsPage} from '../pages/navigationpages/ContactUsPage'
 import {SignInPage} from '../pages/navigationpages/SignInPage'
 import { APIPage } from '../pages/navigationpages/APIPage'
+import { RegisterPage } from '../pages/navigationpages/RegisterPage'
 import RoutingPath from './RoutingPath'
 
 
@@ -32,6 +33,7 @@ export const Routes = ({children}) => {
                 <Route exact path={RoutingPath.contactUsPage} component ={ContactUsPage} />
                 <Route exact path={RoutingPath.signInPage} component ={SignInPage} />
                 <Route exact path={RoutingPath.apiPage} component ={APIPage} />
+                <Route exact path={RoutingPath.registerPage} component ={RegisterPage} />
                 <Route component ={HomePage} />
             </Switch>
         </Router>
