@@ -1,9 +1,10 @@
 import Axios from 'axios'
 
-const API_URL ='http://localhost:3030'
+const productionAPI = 'https://bakverk-app-deploy.herokuapp.com'
+const developmentAPI  ='http://localhost:5000'
 
 const Bakver_API = Axios.create({
-    baseURL : API_URL
+    baseURL : productionAPI
 })
 
 export default Bakver_API
