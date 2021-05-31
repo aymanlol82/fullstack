@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/aymanlol82/fullstackstatic/css/main.1b3b4f21.chunk.css",
+    "main.js": "/aymanlol82/fullstackstatic/js/main.762baf5d.chunk.js",
+    "main.js.map": "/aymanlol82/fullstackstatic/js/main.762baf5d.chunk.js.map",
+    "runtime-main.js": "/aymanlol82/fullstackstatic/js/runtime-main.cf2afcff.js",
+    "runtime-main.js.map": "/aymanlol82/fullstackstatic/js/runtime-main.cf2afcff.js.map",
+    "static/js/2.c094dd5a.chunk.js": "/aymanlol82/fullstackstatic/js/2.c094dd5a.chunk.js",
+    "static/js/2.c094dd5a.chunk.js.map": "/aymanlol82/fullstackstatic/js/2.c094dd5a.chunk.js.map",
+    "static/js/3.4656766f.chunk.js": "/aymanlol82/fullstackstatic/js/3.4656766f.chunk.js",
+    "static/js/3.4656766f.chunk.js.map": "/aymanlol82/fullstackstatic/js/3.4656766f.chunk.js.map",
+    "index.html": "/aymanlol82/fullstackindex.html",
+    "static/css/main.1b3b4f21.chunk.css.map": "/aymanlol82/fullstackstatic/css/main.1b3b4f21.chunk.css.map",
+    "static/js/2.c094dd5a.chunk.js.LICENSE.txt": "/aymanlol82/fullstackstatic/js/2.c094dd5a.chunk.js.LICENSE.txt",
+    "static/media/profile.ca81bf30.gif": "/aymanlol82/fullstackstatic/media/profile.ca81bf30.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf2afcff.js",
+    "static/js/2.c094dd5a.chunk.js",
+    "static/css/main.1b3b4f21.chunk.css",
+    "static/js/main.762baf5d.chunk.js"
+  ]
+}
